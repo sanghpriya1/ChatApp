@@ -43,9 +43,10 @@ public class Client {
 				}
 			} catch (Exception e) {
 
-				e.printStackTrace();
+//				e.printStackTrace();
+				System.out.println("Connection Closed");
 			}
-
+			System.out.println("Connection Closed");
 		};
 		new Thread(r2).start();
 	}
@@ -65,7 +66,8 @@ public class Client {
 					System.out.println("Server : " + msg);
 				} }catch (IOException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+//					e.printStackTrace();
+					System.out.println("Connection Closed");
 				}
 
 			
