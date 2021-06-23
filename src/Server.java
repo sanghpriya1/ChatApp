@@ -14,7 +14,7 @@ public class Server {
 
 	public Server() {
 		try {
-			server = new ServerSocket(7777);
+			server = new ServerSocket(7778);
 			System.out.println("server is ready to accept connection ");
 			System.out.println("Waiting..");
 			socket = server.accept();
